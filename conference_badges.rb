@@ -14,7 +14,9 @@ end
 def assign_rooms(speakers_list)
   assignments = []
   speakers_list.each_with_index { |speaker, index|
-  assignments << "Hello, #{speaker}! You'll be assigned to room #{index}!"}
+  assignments << "Hello, #{speaker}! You'll be assigned to room #{index}!"
+    
+  }
   return assignments
 end
 
