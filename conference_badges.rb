@@ -4,7 +4,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(speakers_list)
-  
+  array = Array.new
+  speakers_list.each { |speaker|
+    array << badge_maker(speaker)
+  }
+  return array
 end
 
 def assign_rooms(speakers_list)
