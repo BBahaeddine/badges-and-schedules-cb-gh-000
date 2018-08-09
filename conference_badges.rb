@@ -22,6 +22,5 @@ def assign_rooms(speakers_list)
 end
 
 def printer
+  
 end
-
-assign_rooms(["Baha", "Me", "you"]).inspect()
